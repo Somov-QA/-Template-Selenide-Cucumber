@@ -8,3 +8,4 @@ Template autotests Selenide ans Cucumber
 2.2 Пакеты от info.cukes по ссылке https://mvnrepository.com/artifact/info.cukes
 2.3 Пакеты от junit по ссылке https://mvnrepository.com/artifact/junit
 2.4 Пакеты от org.junit.jupiter по ссылке https://mvnrepository.com/artifact/org.junit.jupiter
+3. Добавление библиотек
