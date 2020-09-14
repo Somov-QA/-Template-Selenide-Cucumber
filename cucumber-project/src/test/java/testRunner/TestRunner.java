@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "features/OrangeHRM.feature",
-        glue = "stepDefinitions"
+        features = "features/TestGoogleSearch.feature",
+        glue = "StepsObject"
 )
 public class TestRunner {
 
