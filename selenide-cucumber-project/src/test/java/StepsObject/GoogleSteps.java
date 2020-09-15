@@ -34,7 +34,7 @@ public class GoogleSteps {
         elements(GooglePage.searchResultsClass)
                 .shouldHave(sizeGreaterThanOrEqual(6))
                 .first().shouldHave(text("Игровая видеокарта GeForce GTX 1650 | NVIDIA"))
-                .find(".r>a").click();
+                .find(GooglePage.firstResult).click();
         Wait().until(titleIs("Игровая видеокарта GeForce GTX 1650 | NVIDIA"));
     }
 
